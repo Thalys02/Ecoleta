@@ -10,9 +10,8 @@
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
   </a>
   <a>
-  <img alt="License" src="https://img.shields.io/github/license/vitorserrano/ecoleta?color=%237519C1">
+  <img alt="License" src="https://img.shields.io/github/license/thalys02/ecoleta?color=%237519C1">
   <br><br>
-  <a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvitorserrano%2Fecoleta%2Fmaster%2F.github%2FInsomnia_2020-06-05.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 # Índice
@@ -76,7 +75,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/vitorserrano/ecoleta.git
+  $ git clone https://github.com/thalys02/ecoleta.git
 ```
 
 2. Executando a Aplicação:
