@@ -10,14 +10,15 @@ import {SvgUri} from 'react-native-svg';
 import api from '../../services/api';
 
 interface Item{
-    id:number,
-    title:string,
-    image_url:string
+    id:number;
+    title:string;
+    image_url:string;
 }
 
 interface Point{
     id:number;
     image:string;
+    image_url:string;
     name:string;
     latitude:number;
     longitude:number;
@@ -130,7 +131,7 @@ const Poinst = () => {
                                     }}
                                 >
                                     <View style={styles.mapMarkerContainer}>
-                                        <Image style={styles.mapMarkerImage} source={{uri:point.image}} />
+                                        <Image style={styles.mapMarkerImage} source={{uri:point.image_url}} />
                                         <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                                     </View>
                                 </Marker>
